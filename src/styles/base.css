@@ -169,6 +169,20 @@
   }
 }
 
+@font-face {
+  font-family: "Quicksand";
+  src:
+    local("Quicksand"),
+    url("../static/fonts/Quicksand.ttf") format(opentype) tech(variations);
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src:
+    local("Fira Code"),
+    url("../static/fonts/FiraCode.ttf") format(opentype) tech(variations);
+}
+
 ::selection {
   background-color: rgba(var(--overlay2-rgb), 0.3);
 }
@@ -184,14 +198,20 @@ body {
   color: var(--text);
   fill: var(--text);
   stroke: var(--text);
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
+  font-variation-settings: "wght" 400;
+  font-variant-ligatures: discretionary-ligatures;
   margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   overflow-x: hidden;
   line-height: 1.5;
+}
+
+pre {
+  font-family: "Fira Code", monospace;
 }
 
 main {
