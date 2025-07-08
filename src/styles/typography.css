@@ -1,0 +1,50 @@
+:root {
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src:
+    local("Quicksand"),
+    url("../static/fonts/Quicksand.ttf") format(opentype) tech(variations);
+  font-weight: normal;
+  font-variation-settings: "wght" 500;
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src:
+    local("Fira Code"),
+    url("../static/fonts/FiraCode.ttf") format(opentype) tech(variations);
+  font-weight: normal;
+  font-variation-settings: "wght" 400;
+}
+
+@media (min-width: 320px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 641px) {
+  :root {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1281px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+pre {
+  font-family: "Fira Code", monospace;
+  font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+  font-size: 0.9rem;
+}
