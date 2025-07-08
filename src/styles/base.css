@@ -168,6 +168,12 @@
   }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
 ::selection {
   background-color: rgba(var(--overlay2-rgb), 0.3);
 }

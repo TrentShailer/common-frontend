@@ -11,10 +11,7 @@
   </head>
   <body>
     <main>
-      <div
-        class="container"
-        style="width: min(54rem, 80vw)"
-      >
+      <div class="column">
         <h1>Aliquam enim et qui</h1>
         <h2>Libero ab rerum doloremque et explicabo</h2>
         <h3>Aperiam veritatis tempore ea inventore itaque cumque odio quia</h3>
@@ -27,7 +24,8 @@
           Molestiae distinctio repellendus <i>similique</i> assumenda fugiat dolorem est ab. Aut
           numquam nihil nemo recusandae dolorem et ad beatae.
         </p>
-        <pre>
+        <code>
+          <pre>
 /// Serialize some bytes as base 64.
 pub fn serialize&lt;S, V: AsRef&lt;[u8]>>(value: &V, serializer: S) -> Result&lt;S::Ok, S::Error>
 where
@@ -36,6 +34,7 @@ where
     serializer.serialize_str(&Base64UrlUnpadded::encode_string(value.as_ref()))
 }
 </pre>
+        </code>
       </div>
     </main>
     <footer>

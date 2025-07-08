@@ -20,6 +20,15 @@
   font-variation-settings: "wght" 400;
 }
 
+@font-face {
+  font-family: "Nunito";
+  src:
+    local("Nunito"),
+    url("../static/fonts/Nunito.ttf") format(opentype) tech(variations);
+  font-weight: normal;
+  font-variation-settings: "wght" 400;
+}
+
 @media (min-width: 320px) {
   :root {
     font-size: 18px;
@@ -38,13 +47,43 @@
   }
 }
 
+:root {
+  --font-headings: "Quicksand";
+  --font-text: "Nunito";
+  --font-code: "Fira Code";
+}
+
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family:
+    var(--font-text), sans-serif;
   font-weight: 400;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:
+    var(--font-headings), var(--font-text), sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+pre, code {
+  font-family:
+    var(--font-code), monospace;
+  font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+  font-size: 0.9rem;
+  background-color: var(--mantle);
+  border-radius: 0.25rem;
 }
 
 pre {
-  font-family: "Fira Code", monospace;
-  font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
-  font-size: 0.9rem;
+  line-height: 1.5;
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  overflow-x: auto;
 }
