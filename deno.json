@@ -9,7 +9,7 @@
       "dom.iterable"
     ],
     "types": [
-      "types.d.ts"
+      "src/scripts/types.d.ts"
     ],
     "checkJs": true
   }
