@@ -1,5 +1,5 @@
 .column {
-  max-width: 48rem;
+  width: min(38rem, 100%);
 }
 
 footer {
