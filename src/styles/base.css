@@ -168,6 +168,137 @@
   }
 }
 
+.rosewater {
+  color: var(--rosewater);
+  fill: var(--rosewater);
+  stroke: var(--rosewater);
+}
+.flamingo {
+  color: var(--flamingo);
+  fill: var(--flamingo);
+  stroke: var(--flamingo);
+}
+.pink {
+  color: var(--pink);
+  fill: var(--pink);
+  stroke: var(--pink);
+}
+.mauve {
+  color: var(--mauve);
+  fill: var(--mauve);
+  stroke: var(--mauve);
+}
+.red {
+  color: var(--red);
+  fill: var(--red);
+  stroke: var(--red);
+}
+.maroon {
+  color: var(--maroon);
+  fill: var(--maroon);
+  stroke: var(--maroon);
+}
+.peach {
+  color: var(--peach);
+  fill: var(--peach);
+  stroke: var(--peach);
+}
+.yellow {
+  color: var(--yellow);
+  fill: var(--yellow);
+  stroke: var(--yellow);
+}
+.green {
+  color: var(--green);
+  fill: var(--green);
+  stroke: var(--green);
+}
+.teal {
+  color: var(--teal);
+  fill: var(--teal);
+  stroke: var(--teal);
+}
+.sky {
+  color: var(--sky);
+  fill: var(--sky);
+  stroke: var(--sky);
+}
+.sapphire {
+  color: var(--sapphire);
+  fill: var(--sapphire);
+  stroke: var(--sapphire);
+}
+.blue {
+  color: var(--blue);
+  fill: var(--blue);
+  stroke: var(--blue);
+}
+.lavender {
+  color: var(--lavender);
+  fill: var(--lavender);
+  stroke: var(--lavender);
+}
+.text {
+  color: var(--text);
+  fill: var(--text);
+  stroke: var(--text);
+}
+.subtext1 {
+  color: var(--subtext1);
+  fill: var(--subtext1);
+  stroke: var(--subtext1);
+}
+.subtext0 {
+  color: var(--subtext0);
+  fill: var(--subtext0);
+  stroke: var(--subtext0);
+}
+.overlay2 {
+  color: var(--overlay2);
+  fill: var(--overlay2);
+  stroke: var(--overlay2);
+}
+.overlay1 {
+  color: var(--overlay1);
+  fill: var(--overlay1);
+  stroke: var(--overlay1);
+}
+.overlay0 {
+  color: var(--overlay0);
+  fill: var(--overlay0);
+  stroke: var(--overlay0);
+}
+.surface2 {
+  color: var(--surface2);
+  fill: var(--surface2);
+  stroke: var(--surface2);
+}
+.surface1 {
+  color: var(--surface1);
+  fill: var(--surface1);
+  stroke: var(--surface1);
+}
+.surface0 {
+  color: var(--surface0);
+  fill: var(--surface0);
+  stroke: var(--surface0);
+}
+.base {
+  color: var(--base);
+  fill: var(--base);
+  stroke: var(--base);
+}
+.mantle {
+  color: var(--mantle);
+  fill: var(--mantle);
+  stroke: var(--mantle);
+}
+.crust {
+  color: var(--crust);
+  fill: var(--crust);
+  stroke: var(--crust);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
